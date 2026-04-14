@@ -1,0 +1,15 @@
+name: Env & Secrets
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Try to show my vars and secrets content
+        run: |
+          echo Global Secret ${{ secrets.GLOBAL__SECRET }}
+          echo My Secret ${{ secrets.MY_SECRET }}
+          echo My Variable ${{ secrets.MY_WEBSITE }}
