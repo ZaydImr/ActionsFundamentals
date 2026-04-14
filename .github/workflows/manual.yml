@@ -19,6 +19,6 @@ jobs:
       - uses: actions/upload-artifact@v7.0.1
         with:
           name: my-artifact
-          path: /hol
+          path: hol
           retention-days: 30
 
