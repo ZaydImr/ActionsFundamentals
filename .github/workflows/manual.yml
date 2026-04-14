@@ -10,18 +10,16 @@ on:
         default: 'staging'
 
 jobs:
+  example:
+    uses: ./.github/workflows/reusable-workflow.yml
+    with: 
+      my-input: ${{ inputs.environment }}
+      
   build:
     runs-on: ubuntu-latest
-
+      
     steps:
       - uses: actions/checkout@v4
-
-      - name: List directory
-        run: ls
-
-      - uses: ./.github/workflows/reusable-workflow.yml
-        with: 
-          my-input: ${{ inputs.environment }}
 
       - uses: actions/upload-artifact@v7.0.1
         with:
