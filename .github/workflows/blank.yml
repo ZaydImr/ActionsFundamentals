@@ -5,8 +5,9 @@ on:
 
 jobs:
   build:
+    environment: production
     runs-on: ubuntu-latest
-
+    
     steps:
       - name: Try to show my vars and secrets content
         run: |
