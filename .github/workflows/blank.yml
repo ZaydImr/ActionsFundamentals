@@ -13,4 +13,4 @@ jobs:
         run: |
           echo Global Secret ${{ secrets.GLOBAL__SECRET }}
           echo My Secret ${{ secrets.MY_SECRET }}
-          echo My Variable ${{ secrets.MY_WEBSITE }}
+          echo My Variable ${{ vars.MY_WEBSITE }}
