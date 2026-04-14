@@ -22,3 +22,7 @@ jobs:
           path: hol
           retention-days: 30
 
+      - uses: ./.github/workflows/reusable-workflow.yml
+        with: 
+          my-input: ${{ inputs.environment }}
+
