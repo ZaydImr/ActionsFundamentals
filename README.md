@@ -34,18 +34,18 @@ Please follow [these instructions](GettingReady.md) and make sure you have set u
 - [X] :coffee: Break
 - [X] GitHub Actions
 - [X] Types of Actions
-- [ ] 🔨 Hands-on: [My first container Action](hol/02-My-first-action.md)
-- [ ] Typescript and composite actions
-- [ ] Sharing and releasing actions
-- [ ] Using the GitHub API and Octokit
-- [ ] Job descriptions
+- [X] 🔨 Hands-on: [My first container Action](hol/02-My-first-action.md)
+- [X] Typescript and composite actions
+- [X] Sharing and releasing actions
+- [X] Using the GitHub API and Octokit
+- [X] Job descriptions
 
 ### Day 2
-- [ ] Introduction
-- [ ] Actions for CI/CD
-- [ ] Permissions for GitHub Token
-- [ ] Environments and Secrets
-- [ ] Staged deployments with environments, approvals, and deployment gates
+- [X] Introduction
+- [X] Actions for CI/CD
+- [X] Permissions for GitHub Token
+- [X] Environments and Secrets
+- [X] Staged deployments with environments, approvals, and deployment gates
 - [ ] 🔨 Hands-on: [Staged deployments](hol/03-Staged-deployments.md)
 - [ ] :coffee: Break
 - [ ] Action policies
