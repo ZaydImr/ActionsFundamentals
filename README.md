@@ -22,18 +22,18 @@ Please follow [these instructions](GettingReady.md) and make sure you have set u
 
 ### Day 1: 🚀 Getting started
 
-- [ ] Introduction and Icebreaker
-- [ ] GitHub Actions Fundamentals
-- [ ] The YAML syntax
-- [ ] Basic workflow syntax
-- [ ] Events that trigger workflow
-- [ ] Jobs and steps
-- [ ] :mag: Demo: Creating a workflow
-- [ ] 🔨 Hands-on: [My first Action workflow](hol/01-My-first-workflow.md)
-- [ ] Advanced [workflow syntax](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions)
-- [ ] :coffee: Break
-- [ ] GitHub Actions
-- [ ] Types of Actions
+- [X] Introduction and Icebreaker
+- [X] GitHub Actions Fundamentals
+- [X] The YAML syntax
+- [X] Basic workflow syntax
+- [X] Events that trigger workflow
+- [X] Jobs and steps
+- [X] :mag: Demo: Creating a workflow
+- [X] 🔨 Hands-on: [My first Action workflow](hol/01-My-first-workflow.md)
+- [X] Advanced [workflow syntax](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions)
+- [X] :coffee: Break
+- [X] GitHub Actions
+- [X] Types of Actions
 - [ ] 🔨 Hands-on: [My first container Action](hol/02-My-first-action.md)
 - [ ] Typescript and composite actions
 - [ ] Sharing and releasing actions
