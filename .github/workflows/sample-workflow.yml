@@ -5,7 +5,7 @@ run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push, workflow_dispatch]
 
 jobs:
-  check-bats-version:
+  say-hi:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
